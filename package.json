@@ -1,0 +1,19 @@
+{
+  "name": "gdrive-clone",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun index.ts",
+    "dev": "bun --watch index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^4.5.2",
+    "react-router-dom": "^6.26.0"
+  }
+}
