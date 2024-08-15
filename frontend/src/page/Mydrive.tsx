@@ -6,14 +6,14 @@ import { FiAlertCircle } from "react-icons/fi";
 import {  FaFileAlt, FaFolder, FaUser, FaCalendarAlt,  } from "react-icons/fa";
 import { IoMdArrowDropdown } from "react-icons/io";
 
-function Share() {
+function Mydrive() {
   return (
     <>
       <Navbar />
       <div className="flex">
         <Sidebar />
         <div className="flex-grow p-4 relative">
-          <h1 className="text- text-3xl mb-5 mt-3">Shared with me</h1>
+          <h1 className="text- text-3xl mb-5 mt-3">My Drive</h1>
           <FiAlertCircle className="absolute top-4 right-4 text-gray-900 text-2xl" />
           <div className="flex justify-center items-center mb-4 relative">
             <div className="relative w-full max-w-lg">
@@ -44,4 +44,4 @@ function Share() {
   );
 }
 
-export default Share;
+export default Mydrive;
